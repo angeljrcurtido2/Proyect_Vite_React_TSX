@@ -1,0 +1,6 @@
+cliente/
+jsreport-server/
+cliente-mobile/
+node_modules/
+logs/
+.env

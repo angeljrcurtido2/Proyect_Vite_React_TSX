@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "jsreport": "^4.9.0",
+    "mysql2": "^3.14.0",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.5",
+    "numero-a-letras": "^1.0.6",
+    "path": "^0.12.7",
+    "to-words": "^4.5.0"
+  }
+}
