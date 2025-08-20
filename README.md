@@ -212,6 +212,19 @@ migracioncliente/
 
 ## Project Screenshots 
 
-LOGIN PAGE
+**LOGIN PAGE**
 
 ![Pantalla de Login](migracion_cliente/assets/loginpage.PNG)
+
+**USER CREATE**
+![Pantalla de CrearUsuario](migracion_cliente/assets/usercreatePage.PNG)
+
+**USER EDIT**
+![Pantalla de EditarUsuario](migracion_cliente/assets/userEditPage.PNG)
+
+**USER LIST PAGE**
+![Pantalla de ListarUsuario](migracion_cliente/assets/userlistpage.PNG)
+
+**DASHBOARD PAGE**
+![Pantalla de Inicio](migracion_cliente/assets/dashboardpage.PNG)
+
