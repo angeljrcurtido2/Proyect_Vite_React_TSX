@@ -1,6 +1,6 @@
-# MigracionCliente
+# Project_InventorySys
 
-MigracionCliente is a desktop application built with Electron, Vite, React, and TypeScript for the frontend, and a Node.js backend with Express and MySQL for data management. The application implements secure authentication using JSON Web Tokens (JWT) and cookies, providing a robust solution for managing migrations with a modern user interface.
+InventorySys is a desktop application built with Electron, Vite, React, and TypeScript for the frontend, and a Node.js backend with Express and MySQL for data management. The application implements secure authentication using JSON Web Tokens (JWT) and cookies, providing a robust solution for managing migrations with a modern user interface.
 
 ## Table of Contents
 - [Features](#features)
@@ -19,7 +19,7 @@ MigracionCliente is a desktop application built with Electron, Vite, React, and 
 - **Modern UI**: Built with React, Tailwind CSS, and Headless UI for a responsive and accessible interface.
 - **Data Visualization**: Integrated with react-apexcharts and react-jvectormap for dynamic charts and maps.
 - **Secure Authentication**: Uses JWT and cookies for secure user authentication.
-- **Database Management**: MySQL backend with automated backups via mysqldump.
+- **Database Management**: MySQL backend with au****tomated backups via mysqldump.
 - **Scheduled Tasks**: Node-cron for automated task scheduling.
 - **Reporting**: PDF report generation using jsreport and handlebars.
 - **Email Notifications**: Nodemailer for sending emails with configurable settings.
@@ -58,8 +58,8 @@ MigracionCliente is a desktop application built with Electron, Vite, React, and 
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/migracioncliente.git
-   cd migracioncliente
+   git clone https://github.com/yourusername/Project_Vite_React_TSX.git
+   cd Project_Vite_React_TSX
    ```
 
 2. **Install frontend dependencies**:
@@ -167,7 +167,7 @@ MigracionCliente is a desktop application built with Electron, Vite, React, and 
 
 ## Project Structure
 ```
-migracioncliente/
+Project_Vite_React_TSX/
 ├── client/                    # Frontend code
 │   ├── electron/              # Electron main process
 │   ├── src/                   # React components, pages, and assets
