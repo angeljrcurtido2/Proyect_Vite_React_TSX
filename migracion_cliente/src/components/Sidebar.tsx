@@ -136,7 +136,6 @@ const AppSidebar = ({
     }
   };
 
-  const renderAvatar = userData === InitialUserData
   return (
     <aside
       ref={sidebarRef}
@@ -155,7 +154,7 @@ const AppSidebar = ({
         <TiThMenu className="h-6 w-6 rounded-sm bg-[#465fff] text-white" />
         {isExpanded && <span className="text-2xl font-bold text-black">Panel</span>}
       </div>
-      {!renderAvatar && (
+      {isExpanded && (
         <div className="mb-6 flex items-center gap-3 rounded-lg bg-indigo-50 p-2 pr-3 shadow-sm">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#465fff] font-semibold text-white">
             {initials}
@@ -222,7 +221,7 @@ const AppSidebar = ({
                           <Link
                             to={s.path}
                             className={clsx(
-                              "block rounded-md px-2 py-3 text-sm font-medium transition",
+                              "block rounded-md px-2 py-3 mt-1 text-sm font-medium transition ",
                               isActive(s.path)
                                 ? "bg-[#ecf3ff] text-[#465fff]"
                                 : "text-gray-800 hover:bg-gray-100"

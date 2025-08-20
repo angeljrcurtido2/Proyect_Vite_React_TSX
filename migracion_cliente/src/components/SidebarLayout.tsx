@@ -32,7 +32,7 @@ export default function SidebarLayout({ children }: SidebarLayoutProps) {
         isExpanded={isExpanded}
         setIsExpanded={setIsExpanded}
       />
-      <main className={`transition-all duration-300 ${isExpanded ? 'ml-72' : 'ml-20'} flex-1 p-4`}>
+      <main className={`transition-all duration-300 ${isExpanded ? 'ml-72' : 'ml-20'} flex-1 `}>
         {children ?? <Outlet />} 
       </main>
     </div>

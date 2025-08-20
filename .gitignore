@@ -1,6 +1,7 @@
 cliente/
 jsreport-server/
 cliente-mobile/
+expo-test/
 node_modules/
 logs/
 .env

@@ -56,7 +56,7 @@ export async function sendVentaProgramadaEmail({
     </div>`;
 
     let mailOptions = {
-        from: "angeljrcurtido@gmail.com",
+        from: "test@gmail.com",
         to: to,
         subject: subject,
         html,

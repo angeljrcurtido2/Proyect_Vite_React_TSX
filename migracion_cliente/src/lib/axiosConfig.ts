@@ -21,7 +21,7 @@ api.interceptors.response.use(
 
     if (status === 401 && !endpoint.includes('/auth/login')) {
       localStorage.removeItem('usuario');
-      window.location.href = '/login';
+      window.location.href = '/login';  
     }
 
     return Promise.reject(err);

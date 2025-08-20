@@ -125,7 +125,7 @@ const ListarProductos = ({
   }, [page, limit, search]);
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-white py-10 px-6">
+    <div className=" py-10 px-6">
       <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl p-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-6 border-b pb-6">
